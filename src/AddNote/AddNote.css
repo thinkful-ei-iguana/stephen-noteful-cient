@@ -1,0 +1,52 @@
+form div {
+  display: flex;
+  align-items: center;
+}
+
+form p {
+  margin-left: 1em;
+  color: red;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.content-group {
+  display:block;
+  margin-top: 2em;
+}
+
+form label {
+  color: #BDBDBD;
+  font-weight: 600;
+  font-size: 1.3em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+form input {
+  height: 2em;
+}
+
+form textarea {
+  margin-left: 2em;
+  width: 300px;
+  height: 150px;
+  margin-bottom: 2em;
+}
+
+form button {
+  font-weight: 600;
+  font-size: 1.3em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  margin-left: 1.5em;
+}
+
+form button:hover:enabled {
+  cursor: pointer;
+  color: #102541;
+}
